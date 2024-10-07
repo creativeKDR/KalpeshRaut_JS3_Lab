@@ -1,4 +1,4 @@
-const apiKey = ${{ secrets.apiKey }}; // Replace 'your_api_key' with your OpenWeatherMap API key
+const apiKey = ${{ secrets.APIKEY }}; // Replace 'your_api_key' with your OpenWeatherMap API key
 const getWeatherButton = document.getElementById('get-weather');
 const cityNameElem = document.getElementById('city-name');
 const currentDateElem = document.getElementById('current-date');
